@@ -395,6 +395,7 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
+    <Compile Include="Assets\Scripts\VRLookToMove.cs" />
     <Compile Include="Assets\Scripts\mouseLook.cs" />
     <Compile Include="Assets\Scripts\movement.cs" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
