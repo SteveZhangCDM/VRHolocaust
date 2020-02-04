@@ -1,0 +1,4 @@
+#Mon Feb 03 16:03:00 PST 2020
+base.0=/Users/steve_zhang/Desktop/oculus Integration1.38test/Temp/gradleOut/launcher/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex
