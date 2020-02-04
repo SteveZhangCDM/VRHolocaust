@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{0FB3A3E4-B29F-4E9B-13C1-DBFB5776FF05}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DoveTrigger.cs">
+    <Files>
+      <File FileName="Assets/Scripts/DoveTrigger.cs" Line="14" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4a46cfe5-dee2-4600-8173-48aa72e134d5" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
