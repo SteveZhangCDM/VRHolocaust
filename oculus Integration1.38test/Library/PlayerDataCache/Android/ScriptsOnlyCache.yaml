@@ -2,11 +2,13 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - DoveTrigger
+    - DoveTrigger2
     - Oculus.Platform.PlatformSettings
     - OvrAvatar
     - OvrAvatarLocalDriver
     - OvrAvatarMaterialManager
     - OvrAvatarSettings
+    - triggerForScene2
     Oculus.VR.Editor.dll:
     - OVRConfig
     Oculus.VR.dll:
@@ -14,6 +16,8 @@ ScriptsOnlyBuild:
     - OVRGrabber
     - OVRHeadsetEmulator
     - OVRManager
+    Unity.ProBuilder.dll:
+    - UnityEngine.ProBuilder.ProBuilderMesh
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.Graphs.dll:
@@ -22,6 +26,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateMachineNode
     - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
@@ -78,21 +83,92 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12018}
     - Class: 114
-      Script: {instanceID: 12312}
+      Script: {instanceID: 12294}
     - Class: 114
-      Script: {instanceID: 12516}
+      Script: {instanceID: 12314}
     - Class: 114
-      Script: {instanceID: 13398}
+      Script: {instanceID: 12350}
     - Class: 114
-      Script: {instanceID: 13462}
+      Script: {instanceID: 12520}
     - Class: 114
-      Script: {instanceID: 13702}
+      Script: {instanceID: 13402}
     - Class: 114
-      Script: {instanceID: 14014}
+      Script: {instanceID: 13466}
     - Class: 114
-      Script: {instanceID: 14128}
+      Script: {instanceID: 13706}
     - Class: 114
-      Script: {instanceID: 21994}
+      Script: {instanceID: 14018}
+    - Class: 114
+      Script: {instanceID: 14132}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    Assets/Scenes/Scene2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11410}
+    - Class: 114
+      Script: {instanceID: 11614}
+    - Class: 114
+      Script: {instanceID: 11968}
+    - Class: 114
+      Script: {instanceID: 12018}
+    - Class: 114
+      Script: {instanceID: 12350}
+    - Class: 114
+      Script: {instanceID: 12520}
+    - Class: 114
+      Script: {instanceID: 13466}
+    - Class: 114
+      Script: {instanceID: 13706}
+    - Class: 114
+      Script: {instanceID: 14132}
+    - Class: 114
+      Script: {instanceID: 18610}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -530,6 +606,12 @@ ScriptsOnlyBuild:
     className: ONSPAudioSource
   - hash:
       serializedVersion: 2
+      Hash: 11c77c739a053a21887c6a6f75ca32d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DoveTrigger
+  - hash:
+      serializedVersion: 2
       Hash: 4810b3707d5fd5dc0d4e93afb64fcd4b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -540,6 +622,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OVR
     className: AudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: triggerForScene2
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -1535,8 +1623,9 @@ ScriptsOnlyBuild:
       Hash: 11c77c739a053a21887c6a6f75ca32d3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: DoveTrigger
+    className: DoveTrigger2
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/Scene2.unity
   playerPath: /Users/steve_zhang/Desktop/test138.apk
