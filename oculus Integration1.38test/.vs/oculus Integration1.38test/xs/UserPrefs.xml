@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{0FB3A3E4-B29F-4E9B-13C1-DBFB5776FF05}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DoveTrigger.cs">
     <Files>
-      <File FileName="Assets/Scripts/DoveTrigger.cs" Line="14" Column="32" />
+      <File FileName="Assets/Scripts/DoveTrigger.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/triggerForScene2.cs" Line="16" Column="1" />
+      <File FileName="Assets/Scripts/DoveTrigger2.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
