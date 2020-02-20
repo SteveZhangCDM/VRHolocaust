@@ -352,9 +352,13 @@
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\Helpers\OVRMicInput.cs" />
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceMod.cs" />
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceModContext.cs" />
+    <Compile Include="Assets\Scripts\AnimationManager.cs" />
+    <Compile Include="Assets\Scripts\CamerEnd.cs" />
     <Compile Include="Assets\Scripts\DoveTrigger.cs" />
     <Compile Include="Assets\Scripts\DoveTrigger2.cs" />
     <Compile Include="Assets\Scripts\DoveTrigger3.cs" />
+    <Compile Include="Assets\Scripts\openingAnimationController.cs" />
+    <Compile Include="Assets\Scripts\triggerForNextScene.cs" />
     <Compile Include="Assets\Scripts\triggerForScene2.cs" />
     <Compile Include="Assets\Scripts\triggerForScene3.cs" />
     <Compile Include="Assets\Scripts\triggerForScene4.cs" />

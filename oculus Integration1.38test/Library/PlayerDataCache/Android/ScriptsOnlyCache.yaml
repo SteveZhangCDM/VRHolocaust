@@ -1,17 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - DoveTrigger
-    - DoveTrigger2
-    - DoveTrigger3
     - Oculus.Platform.PlatformSettings
     - OvrAvatar
     - OvrAvatarLocalDriver
     - OvrAvatarMaterialManager
     - OvrAvatarSettings
     - triggerForScene2
-    - triggerForScene3
-    - triggerForScene4
     Oculus.VR.Editor.dll:
     - OVRConfig
     Oculus.VR.dll:
@@ -24,16 +19,14 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
   sceneClasses:
-    Assets/Scenes/Scene1.unity:
+    Assets/Scenes/Lighting_Bright 1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -53,8 +46,6 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
@@ -77,38 +68,34 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11410}
+      Script: {instanceID: 11412}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11616}
     - Class: 114
-      Script: {instanceID: 12020}
+      Script: {instanceID: 12024}
     - Class: 114
-      Script: {instanceID: 12296}
+      Script: {instanceID: 12320}
     - Class: 114
-      Script: {instanceID: 12316}
+      Script: {instanceID: 12356}
     - Class: 114
-      Script: {instanceID: 12352}
+      Script: {instanceID: 12526}
     - Class: 114
-      Script: {instanceID: 12522}
+      Script: {instanceID: 13414}
     - Class: 114
-      Script: {instanceID: 13404}
+      Script: {instanceID: 13478}
     - Class: 114
-      Script: {instanceID: 13468}
+      Script: {instanceID: 13718}
     - Class: 114
-      Script: {instanceID: 13708}
+      Script: {instanceID: 14030}
     - Class: 114
-      Script: {instanceID: 14020}
-    - Class: 114
-      Script: {instanceID: 14134}
+      Script: {instanceID: 14144}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
-    - Class: 258
-      Script: {instanceID: 0}
-    Assets/Scenes/Scene2.unity:
+    Assets/Scenes/Lighting_Bright2.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -128,8 +115,6 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
@@ -150,154 +135,26 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11410}
+      Script: {instanceID: 11412}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11616}
     - Class: 114
-      Script: {instanceID: 11804}
+      Script: {instanceID: 12024}
     - Class: 114
-      Script: {instanceID: 12020}
+      Script: {instanceID: 12356}
     - Class: 114
-      Script: {instanceID: 12522}
+      Script: {instanceID: 12526}
     - Class: 114
-      Script: {instanceID: 13468}
+      Script: {instanceID: 13478}
     - Class: 114
-      Script: {instanceID: 13708}
+      Script: {instanceID: 13718}
     - Class: 114
-      Script: {instanceID: 14134}
-    - Class: 114
-      Script: {instanceID: 93920}
+      Script: {instanceID: 14144}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
     - Class: 157
-      Script: {instanceID: 0}
-    - Class: 258
-      Script: {instanceID: 0}
-    Assets/Scenes/Scene3.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11410}
-    - Class: 114
-      Script: {instanceID: 11614}
-    - Class: 114
-      Script: {instanceID: 11804}
-    - Class: 114
-      Script: {instanceID: 12020}
-    - Class: 114
-      Script: {instanceID: 12522}
-    - Class: 114
-      Script: {instanceID: 13468}
-    - Class: 114
-      Script: {instanceID: 13708}
-    - Class: 114
-      Script: {instanceID: 14134}
-    - Class: 114
-      Script: {instanceID: 93910}
-    - Class: 114
-      Script: {instanceID: 237590}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 258
-      Script: {instanceID: 0}
-    Assets/Scenes/Scene4.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11410}
-    - Class: 114
-      Script: {instanceID: 11614}
-    - Class: 114
-      Script: {instanceID: 12020}
-    - Class: 114
-      Script: {instanceID: 12522}
-    - Class: 114
-      Script: {instanceID: 13468}
-    - Class: 114
-      Script: {instanceID: 13708}
-    - Class: 114
-      Script: {instanceID: 14134}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 258
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -330,6 +187,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OvrAvatarBody
+  - hash:
+      serializedVersion: 2
+      Hash: 2ca82dfd5404190e9b95e8c1b8eb4f1b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: openingAnimationController
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -546,6 +409,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CamerEnd
   - hash:
       serializedVersion: 2
       Hash: c51d2a1569bb404a12e837742887b609
@@ -886,6 +755,12 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: triggerForScene3
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
     namespaceName: Oculus.Platform.Samples.VrHoops
     className: DetectBasket
   - hash:
@@ -906,6 +781,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TeleportOrientationHandlerHMD
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: triggerForScene4
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -936,6 +817,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: Oculus.Platform
     className: CallbackRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 11c77c739a053a21887c6a6f75ca32d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DoveTrigger3
   - hash:
       serializedVersion: 2
       Hash: e9389e944eb81a3a9df56fcdb09ce6a9
@@ -1748,26 +1635,12 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 11c77c739a053a21887c6a6f75ca32d3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoveTrigger3
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: triggerForScene3
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: triggerForScene4
+    className: triggerForNextScene
   platform: 13
   scenePathNames:
-  - Assets/Scenes/Scene1.unity
-  - Assets/Scenes/Scene2.unity
-  - Assets/Scenes/Scene3.unity
-  - Assets/Scenes/Scene4.unity
-  playerPath: /Users/steve_zhang/Desktop/test138.apk
+  - Assets/Scenes/Lighting_Bright 1.unity
+  - Assets/Scenes/Lighting_Bright2.unity
+  playerPath: /Users/steve_zhang/Desktop/test0219.apk
